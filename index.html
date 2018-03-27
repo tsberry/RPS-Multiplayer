@@ -11,6 +11,42 @@
 
 <body>
 
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1>Rock, Paper, Scissors</h1>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2 class="panel-title">Select an option</h2>
+            </div>
+            <div class="panel-body">
+                <div class="move" id="rock">Rock</div>
+                <div class="move" id="paper">Paper</div>
+                <div class="move" id="scissors">Scissors</div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2 class="panel-title">Results</h2>
+            </div>
+            <div class="panel-body">
+                
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2 class="panel-title">Wins and Losses</h2>
+            </div>
+            <div class="panel-body">
+                <div>Player 1 Wins: <span id="p1-wins"></span></div>
+                <div>Player 1 Losses: <span id="p1-losses"></span></div>
+                <div>Player 2 Wins: <span id="p2-wins"></span></div>
+                <div>Player 2 Losses: <span id="p2-losses"></span></div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
